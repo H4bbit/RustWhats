@@ -3,6 +3,21 @@
 version = 4
 
 [[package]]
+name = "RustWhats"
+version = "0.1.0"
+dependencies = [
+ "qrcode",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
+ "wacore",
+ "waproto",
+ "whatsapp-rust",
+ "whatsapp-rust-tokio-transport",
+ "whatsapp-rust-ureq-http-client",
+]
+
+[[package]]
 name = "adler2"
 version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2432,21 +2447,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "12bed680863276c63889429bfd6cab3b99943659923822de1c8a39c49e4d722c"
 dependencies = [
  "rustls-pki-types",
-]
-
-[[package]]
-name = "whatsapp"
-version = "0.1.0"
-dependencies = [
- "qrcode",
- "tokio",
- "tracing",
- "tracing-subscriber",
- "wacore",
- "waproto",
- "whatsapp-rust",
- "whatsapp-rust-tokio-transport",
- "whatsapp-rust-ureq-http-client",
 ]
 
 [[package]]
