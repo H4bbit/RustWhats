@@ -2,3 +2,5 @@
 whatsapp.db
 *.db
 
+whatsapp.db-shm
+whatsapp.db-wal
